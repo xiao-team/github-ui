@@ -1,0 +1,41 @@
+// 存放变量
+@charset 'utf-8';
+$css-prefix: gh-;
+$animation-time: 0.3s;
+$ease-in-out: ease-in-out;
+
+// 字体
+$font-size-default: 14px;
+$font-size-small: 12px;
+$btn-padding-default: 6px 12px;
+$btn-padding-small: 3px 10px;
+
+// 颜色
+$black: #24292e;
+$gray: #eff3f6;
+$gray-hover: #e6ebf1;
+$gray-disable: #d1d5da;
+
+$gray-disable-bg: #fafbfc;
+$white: #fff;
+$success: #28a745;
+$success-hover: #269f42;
+$success-active: #279f43;
+$success-linear-gradient: linear-gradient(-180deg, #34d058, #28a745 90%);
+$success-linear-gradient-hover: linear-gradient(-180deg, #2fcb53, #269f42 90%);
+
+$blue: #0366d6;
+// border
+$border-hover-color: rgba(27, 31, 35, 0.35);
+$border-active-color: rgba(27, 31, 35, 0.5);
+
+// box-shadow
+$box-shadow-inset: inset 0 0.15em 0.3em rgba(27, 31, 35, 0.15);
+
+// input
+$input-padding: 6px 8px;
+
+// animation
+$animation-time: 0.3s;
+$transition-time: 0.2s;
+$ease-in-out: ease-in-out;

@@ -1,0 +1,37 @@
+@mixin zoom-motion($className, $keyframeName) {
+    @include make-motion($className, $keyframeName);
+    .#{$className}-enter-active,
+    .#{$className}-appear {
+        opacity: 0;
+        animation-timing-function: linear;
+        animation-duration: $transition-time;
+    }
+    .#{$className}-leave-active {
+        animation-timing-function: linear;
+        animation-duration: $transition-time;
+    }
+}
+
+@include zoom-motion(zoom, vuZoom);
+
+@keyframes vuZoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes vuZoomOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+}

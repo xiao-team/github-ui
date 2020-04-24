@@ -1,0 +1,70 @@
+$page-prefix-cls: $css-prefix + 'page';
+
+.#{$page-prefix-cls} {
+    display: inline-block;
+    text-align: center;
+    &-item {
+        float: left;
+        margin: 0;
+        padding: $btn-padding-default;
+        font-weight: 600;
+        color: $blue;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background: #fff;
+        border: 1px solid #e1e4e8;
+        margin-left: -1px;
+        &:hover {
+            z-index: 2;
+            text-decoration: none;
+            background-color: #eff3f6;
+            border-color: #e1e4e8;
+        }
+        &:first-child {
+            margin-left: 0;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+        &:last-child {
+            margin-left: -1px;
+
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+    }
+    &-item-active {
+        color: $white;
+        background-color: $blue;
+        border-color: $blue;
+        &:hover {
+            color: $white;
+            background-color: $blue;
+            border-color: $blue;
+        }
+    }
+    &-item-disable {
+        color: $gray-disable;
+        cursor: default;
+        background-color: $gray-disable-bg;
+        &:hover {
+            color: $gray-disable;
+            cursor: default;
+            background-color: $gray-disable-bg;
+        }
+    }
+    &-gap {
+        color: $gray-disable;
+        cursor: default;
+        background-color: $gray-disable-bg;
+        &:hover {
+            color: $gray-disable;
+            cursor: default;
+            background-color: $gray-disable-bg;
+        }
+    }
+}
