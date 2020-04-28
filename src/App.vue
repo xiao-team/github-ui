@@ -24,6 +24,8 @@
                     <Page :total="110"></Page>
                 </div>
             </transition>
+
+            <Page></Page>
         </div>
     </div>
 </template>

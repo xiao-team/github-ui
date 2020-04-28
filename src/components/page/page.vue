@@ -2,6 +2,9 @@
     <span :class="wrapClasses" :style="styles" v-if="pageTotal > 1">
         <span :class="prevClasses" @click="prevPage">{{ prevText }}</span>
         <template v-if="pageTotal > 2">
+            <!-- <span :class="[prefixCls + '-item']">1</span>
+            <span :class="[prefixCls + '-item']">2</span>
+            <span :class="[prefixCls + '-item', prefixCls + '-gap']">…</span> -->
             <span
                 v-for="item in pageMap"
                 :class="[
