@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{HksL:function(e,n,t){"use strict";t.r(n);var i=function(){var e=this.$createElement;return(this._self._c||e)("div")};i._withStripped=!0;var s={},r=t("6Qow"),l=Object(r.a)(s,i,[],!1,null,null,null);l.options.__file="src/views/index.vue";n.default=l.exports}}]);
