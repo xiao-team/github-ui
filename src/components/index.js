@@ -1,17 +1,17 @@
-import Button from './Button'
+import button from './button'
 import ButtonGroup from './ButtonGroup'
-import Icon from './Icon'
-import Input from './Input'
-import Page from './Page'
+import icon from './icon'
+import input from './input'
+import page from './page'
 
 import '../assets/icons'
 
 const components = {
-    Button,
+    button,
     ButtonGroup,
-    Icon,
-    Input,
-    Page,
+    icon,
+    input,
+    page,
 }
 
 export default {

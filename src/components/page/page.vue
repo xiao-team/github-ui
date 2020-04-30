@@ -2,17 +2,14 @@
     <span :class="wrapClasses" :style="styles" v-if="pageTotal > 1">
         <span :class="prevClasses" @click="prevPage">{{ prevText }}</span>
         <template v-if="pageTotal > 2">
-            <!-- <span :class="[prefixCls + '-item']">1</span>
-            <span :class="[prefixCls + '-item']">2</span>
-            <span :class="[prefixCls + '-item', prefixCls + '-gap']">…</span> -->
             <span
-                v-for="item in pageMap"
+                v-for="(item, index) in pageMap"
                 :class="[
                     prefixCls + '-item',
                     item === '…' ? prefixCls + '-gap' : '',
                     +item === currentPage ? prefixCls + '-item-active' : '',
                 ]"
-                :key="item"
+                :key="item + '' + index"
                 @click="changePage(item)"
             >
                 {{ item }}

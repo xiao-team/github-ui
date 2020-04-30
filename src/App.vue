@@ -27,6 +27,7 @@
 
             <Page></Page>
         </div>
+        <Edge />
     </div>
 </template>
 <script>

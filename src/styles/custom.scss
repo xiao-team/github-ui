@@ -9,6 +9,7 @@ $font-size-default: 14px;
 $font-size-small: 12px;
 $btn-padding-default: 6px 12px;
 $btn-padding-small: 3px 10px;
+$btn-padding-large: 12px 20px;
 
 // 颜色
 $black: #24292e;
@@ -25,6 +26,8 @@ $success-linear-gradient: linear-gradient(-180deg, #34d058, #28a745 90%);
 $success-linear-gradient-hover: linear-gradient(-180deg, #2fcb53, #269f42 90%);
 
 $blue: #0366d6;
+$primary: $blue;
+
 // border
 $border-hover-color: rgba(27, 31, 35, 0.35);
 $border-active-color: rgba(27, 31, 35, 0.5);
