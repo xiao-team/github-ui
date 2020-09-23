@@ -15,5 +15,7 @@ module.exports = {
         sourceType: 'module',
     },
     plugins: ['vue'],
-    rules: {},
+    rules: {
+        "vue/custom-event-name-casing": 0
+    },
 }

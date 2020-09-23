@@ -4,7 +4,7 @@ sidebarDepth: 0
 
 ## 快速上手
 
-<a href="https://github.com/zxpsuper/vui-vue" style="margin-left: 10px;point-event: none"><img src="https://img.shields.io/github/stars/zxpsuper/vui-vue?style=social"></a>
+<a href="https://github.com/xiao-team/github-ui" style="margin-left: 10px;point-event: none"><img src="https://img.shields.io/github/stars/xiao-team/github-ui?style=social"></a>
 
 ### CDN 引入
 

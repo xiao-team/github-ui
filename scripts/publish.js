@@ -3,11 +3,11 @@
  */
 var ghpages = require('gh-pages')
 ghpages.publish(
-    './dist',
+    './docs/.vuepress/dist/',
     {
         branch: 'gh-pages',
     },
-    function(err) {
+    function (err) {
         console.log(err)
         console.log('docs同步完成!')
     }

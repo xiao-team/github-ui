@@ -1,3 +1,6 @@
 @charset "UTF-8";
 
-$btn-prefix-cls: $css-prefix + 'btn';
+${{__py_component_class_name__}}-prefix-cls: $css-prefix + '{{__py_component_class_name__}}';
+
+.#{${{__py_component_class_name__}}-prefix-cls} {
+}

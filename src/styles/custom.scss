@@ -31,14 +31,18 @@ $primary: $blue;
 // border
 $border-hover-color: rgba(27, 31, 35, 0.35);
 $border-active-color: rgba(27, 31, 35, 0.5);
-
+$border-radio-normal: 6px;
 // box-shadow
 $box-shadow-inset: inset 0 0.15em 0.3em rgba(27, 31, 35, 0.15);
 
 // input
-$input-padding: 6px 8px;
+$input-padding: 5px 12px;
 
 // animation
 $animation-time: 0.3s;
 $transition-time: 0.2s;
 $ease-in-out: ease-in-out;
+
+// card
+$card-border-color: #e1e4e8;
+$card-header-color: #f6f8fa;

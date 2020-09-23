@@ -67,7 +67,7 @@ function createTemplate(name, needConfig) {
         // 输出默认的scss文件
         fs.createFileSync(distFiles.scss)
         fs.writeFileSync(distFiles.scss, replaceCompName('scss', name, false))
-
+        console.log('name', name)
         // 自动更新样式依赖文件
         stylesFileUpdate()
         componentsIndexFileUpdate()

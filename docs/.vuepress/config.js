@@ -1,3 +1,4 @@
+const { resolve } = require('path')
 module.exports = {
     base: '/github-ui/',
     title: 'Github-UI',
@@ -38,7 +39,7 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Github', link: 'https://github.com/zxpsuper/vui-vue' },
+            { text: 'Github', link: 'https://github.com/xiao-team/github-ui' },
         ],
         sidebar: [
             {
@@ -49,7 +50,13 @@ module.exports = {
             {
                 title: '组件',
                 collapsable: false,
-                children: ['/components/button', '/components/page'],
+                children: [
+                    '/components/button',
+                    '/components/page',
+                    '/components/input',
+                    '/components/icon',
+                    '/components/card',
+                ],
             },
         ],
     },

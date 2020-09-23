@@ -1,17 +1,21 @@
 import button from './button'
 import ButtonGroup from './ButtonGroup'
+import Card from './Card'
 import icon from './icon'
 import input from './input'
 import page from './page'
+import Select from './Select'
 
 import '../assets/icons'
 
 const components = {
     button,
     ButtonGroup,
+    Card,
     icon,
     input,
     page,
+    Select,
 }
 
 export default {

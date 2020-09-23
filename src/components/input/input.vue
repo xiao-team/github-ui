@@ -47,6 +47,7 @@ export default {
     methods: {
         handleChange() {
             this.$emit('input', this.inputValue)
+            this.$emit('onChange', this.inputValue)
         },
         handleBlur() {
             this.$emit('blur')

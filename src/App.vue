@@ -17,7 +17,8 @@
         <Icon icon="user" />
         <Icon icon="add" />
         <Icon icon="check" />
-        <Input placeholder="请输入2名称2" v-model="haha" @blur="blur" />
+        <Icon icon="search" />
+        <Input placeholder="请输入您的用户名" v-model="haha" @blur="blur" />
         <div style="margin-top: 20px;">
             <transition name="move-up">
                 <div v-if="show">
@@ -27,7 +28,21 @@
 
             <Page></Page>
         </div>
-        <Edge />
+        <Card style="width: 600px; margin: 0 auto;">
+            <div slot="header">我是标题</div>
+            <div>我是正文你是什么</div>
+        </Card>
+        <Card style="width: 600px; margin: 10px auto;">
+            <!-- <div slot="header">我是标题</div> -->
+            <div>我是正文你是什么</div>
+        </Card>
+        <Card style="width: 600px; margin: 10px auto;">
+            <!-- <div slot="header">我是标题</div> -->
+            <div>我是正文你是什么</div>
+            <div slot="footer">我是底部</div>
+        </Card>
+
+        <Select style="width: 600px; margin: 10px auto;"></Select>
     </div>
 </template>
 <script>
