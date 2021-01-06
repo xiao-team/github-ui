@@ -88,7 +88,7 @@
         ]
     },
     "dependencies": {
-        "axios": "^0.19.2",
+        "axios": "^0.21.1",
         "es6-promise": "^4.2.5",
         "vue": "^2.5.17",
         "vue-router": "^3.0.1",
